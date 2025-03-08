@@ -1,4 +1,4 @@
-package aulas;
+package logicaProgramacao.aulas;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -13,14 +13,10 @@ public class aula38 {
         System.out.println("qual a quantidade de minutos");
         qua = sc.nextInt();
 
-        double valP = 0;
-        if (qua <= 100){
-            valP = 50.00;
+        if (qua > 100){
+             val += (qua - 100) * 2;
         }
-        else {
-            valP = valP + val + (qua - 100) * 2;
-        }
-        System.out.printf("valor a pagar: R$ %.2f%n", valP);
+        System.out.printf("valor a pagar: R$ %.2f%n", val);
 
         sc.close();
 

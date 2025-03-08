@@ -1,4 +1,4 @@
-package aulas;
+package logicaProgramacao.aulas;
 import java.util.Scanner;
 
 public class aula27 {
