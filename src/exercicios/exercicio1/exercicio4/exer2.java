@@ -15,4 +15,4 @@ public class exer2 {
     }
 }
 
-//  esse negocio de plano cartesiano me pega ainda, nao ao certo como fazer.
+//  esse negocio de plano cartesiano me pega ainda, nao sei ao certo como fazer.
