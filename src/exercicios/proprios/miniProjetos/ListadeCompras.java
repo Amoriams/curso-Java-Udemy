@@ -6,7 +6,7 @@ public class ListadeCompras {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        double saldoIni = 0;
+        double saldoIni;
         ArrayList<String> produtosComprados = new ArrayList<>();
         ArrayList<Double> precosComprados = new ArrayList<>();
 
@@ -18,8 +18,6 @@ public class ListadeCompras {
         sc.nextLine();
 
         double saldoAtual = saldoIni;
-        int cont = 0;
-
         String continuar;
 
         do {
