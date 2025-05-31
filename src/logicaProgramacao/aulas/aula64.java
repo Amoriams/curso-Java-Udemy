@@ -1,0 +1,16 @@
+package logicaProgramacao.aulas;
+import java.util.Scanner;
+
+public class aula64 {
+    public static void main (String [] args){
+
+        Scanner sc = new Scanner (System.in);
+
+
+
+
+
+
+
+    }
+}
