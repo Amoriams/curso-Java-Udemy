@@ -25,9 +25,7 @@ public class atvd1 {
     }
 
     public static double somar(double a, double b){
-        double soma = a +b;
-
-        return soma;
+        return a +b;
     }
 
 
