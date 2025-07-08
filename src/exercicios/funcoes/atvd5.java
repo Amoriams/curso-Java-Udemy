@@ -1,4 +1,4 @@
-package exercicios.proprios.funcoes;
+package exercicios.funcoes;
 import java.util.Scanner;
 
 public class atvd5 {
