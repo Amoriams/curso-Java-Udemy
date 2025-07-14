@@ -1,4 +1,4 @@
-package exercicios.proprios;
+package exercicios.proprios.miniProjetos;
 
 import java.util.Scanner;
 
