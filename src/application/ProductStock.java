@@ -9,17 +9,20 @@ public class ProductStock {
 
         Scanner sc = new Scanner(System.in);
 
-        ProductN product = new ProductN();
-
         System.out.println("Enter product data");
         System.out.print("name: ");
-        product.name = sc.nextLine();
+        String name = sc.nextLine();
 
         System.out.print("price: ");
-        product.price = sc.nextDouble();
+        double price = sc.nextDouble();
 
-        System.out.print("quantity in stock: ");
-        product.quantity = sc.nextInt();
+        ProductN product = new ProductN(name, price);
+
+        product.setName("computer");
+        System.out.println("updated name: " + product.getName());
+
+        product.setPrice(1200.0);
+        System.out.println("updated price: " + product.getPrice());
 
         System.out.println();
         System.out.println("product data: " + product);
