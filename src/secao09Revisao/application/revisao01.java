@@ -19,12 +19,18 @@ public class revisao01 {
         System.out.print("Price: ");
         double price = sc.nextDouble();
 
+
+
         /* System.out.print("Quantity in stock: ");
         int quantity = sc.nextInt(); , por enquanto não vai ser necessário, já que não colocamos quantity no construtor*/
 
-        Product product = new Product(name, price /* também apagamos o quantitiy daqui*/);
+        Product product = new Product(name, price /* também apagamos o quantity daqui*/);
         /* obriga o programador a fornecer os dados no momento da instanciação */
 
+        product.setName("Computer");
+        /* usando 'SET' para conseguir mudar o nome do objeto, já que no atributo ele está como private*/
+        System.out.println("Updated name: " + product.getName()/* usando GET para que o nome possa aparecer
+         já que o atributo é private*/ );
 
         System.out.println();
 

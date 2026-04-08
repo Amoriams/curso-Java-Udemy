@@ -1,8 +1,10 @@
 package secao09Revisao.entities;
 public class Product {
-    public String name;
-    public double price;
-    public int quantity;
+
+    /* aula de encapsulamento, trocando todos os atributos public para private */
+    private String name;
+    private double price;
+    private int quantity;
 
     /* public Product (){} <-- construtor padrão  */
 
@@ -24,6 +26,28 @@ public class Product {
         A palavra "THIS" aqui em quantity também seria opcional, já que não existe o atributo quantity nesse construtor */
     }
 
+    public String getName (){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public double getPrice(){
+            return price;
+    }
+
+    public void setPrice(double price){
+            this.price = price;
+    }
+
+    public int getQuantity(){
+        return quantity;
+    }
+
+
+    /* botão direito -≥ generate -≥ getters and setters (ou ALT + INSERT) e escolher qual método criar */
 
 
 
