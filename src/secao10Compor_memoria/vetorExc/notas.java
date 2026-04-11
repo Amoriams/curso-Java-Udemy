@@ -1,4 +1,4 @@
-package Compor_memoria.vetorExc;
+package secao10Compor_memoria.vetorExc;
 import java.util.Scanner;
 
 public class notas {

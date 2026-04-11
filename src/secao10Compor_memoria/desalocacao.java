@@ -1,4 +1,4 @@
-package Compor_memoria;
+package secao10Compor_memoria;
 
 public class desalocacao {
     public static void main (String [] args){

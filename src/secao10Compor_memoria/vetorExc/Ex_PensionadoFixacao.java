@@ -1,6 +1,6 @@
-package Compor_memoria.vetorExc;
+package secao10Compor_memoria.vetorExc;
 
-import Compor_memoria.entities.aluguel;
+import secao10Compor_memoria.entities.aluguel;
 
 import java.util.Scanner;
 

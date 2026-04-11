@@ -1,8 +1,8 @@
-package Compor_memoria.application;
+package secao10Compor_memoria.application;
 
 import java.util.Scanner;
 
-import Compor_memoria.entities.product;
+import secao10Compor_memoria.entities.product;
 
 public class vetorReferencia {
     public static void main (String [] args) {

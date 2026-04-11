@@ -1,5 +1,5 @@
-package Compor_memoria.vetorExc;
-import Compor_memoria.entities.Ex_SalaDev;
+package secao10Compor_memoria.vetorExc;
+import secao10Compor_memoria.entities.Ex_SalaDev;
 
 import java.util.Scanner;
 

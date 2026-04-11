@@ -1,4 +1,4 @@
-package Compor_memoria.entities;
+package secao10Compor_memoria.entities;
 
 public class product {
     private String produto;

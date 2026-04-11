@@ -1,4 +1,4 @@
-package Compor_memoria;
+package secao10Compor_memoria;
 import java.util.Scanner;
 
 public class vetores {
